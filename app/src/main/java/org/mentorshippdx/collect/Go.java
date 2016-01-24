@@ -6,7 +6,6 @@ package org.mentorshippdx.collect;
 public class Go {
     public static void main(String[] args){
         Ready startIt = new Ready();
-        Setting runList = new Setting();
-        startIt.printIt(runList);
+        startIt.printIt();
     }
 }
